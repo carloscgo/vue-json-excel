@@ -3,7 +3,7 @@
 		:id="idName"
 		@click="generate">
 		<slot>
-			Download {{name}}
+			{{name}}
 		</slot>
 	</div>
 </template>
